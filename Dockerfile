@@ -1,5 +1,5 @@
 FROM node:12.2.0-alpine
-WORKDIR app1
+WORKDIR app
 COPY . .
 RUN npm install
 EXPOSE 8000
